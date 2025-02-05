@@ -40,3 +40,39 @@ nav {
     color: black;
 }
 
+/* main */
+
+
+.jumbotron{
+    background-color: #b4d0e6;
+    padding-top: 100px;
+}
+
+.container{
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+
+.jumbotron img {
+    width: 700px
+}
+
+.jumbotron h1{
+    width: 70%;
+    margin: auto;
+    font-size: 85px;
+}
+/* debug */
+
+.jumbotron h1{
+    background-color: tan;
+}
+
+.jumbotron .left{
+    background-color: firebrick;
+}
+
+.jumbotron .right {
+    background-color: forestgreen;
+}
