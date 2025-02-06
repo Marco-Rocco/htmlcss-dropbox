@@ -14,6 +14,10 @@ button {
     color: white;
 }
 
+ul{
+    list-style-type: none;
+}
+
 /* header */
 
 nav {
@@ -145,10 +149,8 @@ nav {
 .column, .row {
     display: flex;
     flex-wrap: wrap;
-}
+    border: 1px solid black;
 
-.column{
-    flex-direction: column;
 }
 
 .head {
@@ -162,16 +164,42 @@ nav {
 .head *{
     margin: 0px 3px;
 }
-/* debug */
 
-.grid {
-    background-color: violet;
-    height: 600px;
+.plan {
+    padding: 15px 15px 100px 15px;
 }
-.column{
-    background-color: brown;
-    height: 500px;
+
+.plan h2{
+    margin-bottom: 20px;
 }
+
+.plan span {
+    margin: 10px 0px;
+}
+
+.plan i{
+    margin-right: 10px;
+}
+
+.plan > * {
+    display: block;
+}
+
+.plan ul{
+    margin: 40px 0px;
+}
+
+.plan li {
+    margin: 15px 0px;
+}
+
+.plan button{
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+
+/* debug */
 
 .row {
     background-color: blue;
