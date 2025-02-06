@@ -20,6 +20,12 @@ ul{
 
 /* header */
 
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
 nav {
     width: 100%;
     background-color: white;
@@ -38,7 +44,7 @@ nav {
     margin: 0px 20px;
 }
 
-.links {
+.voice {
     border: 0px;
     background-color: white;
     color: black;
@@ -231,6 +237,11 @@ nav {
     padding: 60px 20px;
 }
 
+.partner button {
+    color: black;
+    background-color: white;
+    border: 1px solid black
+}
 
 .partner h2 {
     margin-bottom: 30px;
@@ -296,6 +307,7 @@ footer {
     display: flex;
     gap: 20px;
     background-color: black;
+    padding: 50px 0px;
 }
 
 .links .column{
