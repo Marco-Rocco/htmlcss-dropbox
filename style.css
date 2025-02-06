@@ -247,13 +247,24 @@ nav {
     margin-top: 150px;
 }
 
+.medium.container .grid{
+    margin-top: 50px;
+}
+
 .cell{
     width: calc((100% - 60px) /4);
 }
 
+.cell img{
+    width: 100%;
+}
+
+.cell h2 {
+    margin-bottom: 30px;
+}
+
+
 /* debug */
 
 .cell {
-    height: 400px;
-    background-color: coral;
 }
