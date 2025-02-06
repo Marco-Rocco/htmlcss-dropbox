@@ -88,7 +88,7 @@ nav {
     margin-bottom: 30px;
 }
 
-.left i{
+.fa-solid.fa-arrow-down{
     font-size: 40px;
     margin-top: 100px
 }
@@ -98,15 +98,16 @@ nav {
 .big.container {
     width: 60%;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 .big.container h1{
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 }
 
 .radio {
     display: flex;
+    margin-bottom: 50px;
 }
 
 .radio span{
@@ -127,17 +128,32 @@ nav {
 
 .grid {
     display: flex;
-    width: calc((100%-60px)/3);
     gap: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.column {
+    width: calc((100% - 60px) /3);
+}
+
+.row {
+    flex-grow: 1;
 }
 /* debug */
 
 .grid {
     background-color: violet;
+    height: 600px;
+}
+.column{
+    background-color: brown;
+    height: 500px;
 }
 
-.column{
-    height: 500px;
-    width: 30%;
-    background-color: aqua;
+.row {
+    background-color: blue;
+    height: 200px;
+    width: 600px;
 }
