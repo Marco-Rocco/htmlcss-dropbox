@@ -105,8 +105,9 @@ nav {
     margin-top: 200px;
 }
 
-.big.container h1{
+.big.container > h1{
     margin-bottom: 70px;
+    font-size: 40px;
 }
 
 .radio {
@@ -247,6 +248,9 @@ nav {
     margin-top: 150px;
 }
 
+.medium.container h1 {
+    font-size: 40px;
+}
 .medium.container .grid{
     margin-top: 50px;
 }
@@ -263,8 +267,56 @@ nav {
     margin-bottom: 30px;
 }
 
+/* clients */
+
+.clients {
+    width: 60%;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.clients h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+
+}
+
+/* footer  */
+
+footer {
+    background-color: black;
+    margin-top: 150px;
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.links{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    background-color: black;
+}
+
+.links .column{
+    width: calc((100% - 80px) /5 );
+    color: white;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+}
+
+.links h2{
+    margin-bottom: 30px;
+}
+
+.links li{
+    margin: 20px 0px;
+    font-weight: 100;
+}
 
 /* debug */
 
-.cell {
-}
+
