@@ -238,5 +238,22 @@ nav {
 .partner p{
     margin-bottom: 50px;
 }
+
+/* medium container */
+
+.medium.container {
+    width: 60%;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.cell{
+    width: calc((100% - 60px) /4);
+}
+
 /* debug */
 
+.cell {
+    height: 400px;
+    background-color: coral;
+}
