@@ -209,5 +209,34 @@ nav {
     right: 10px;
 }
 
+/* partner  */
+
+.partner {
+    width: 60%;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.partner img {
+    width: 100%;
+}
+
+.partner .left{
+    width: 60%;
+}
+
+.partner .right {
+    width: 40%;
+    padding: 60px 20px;
+}
+
+
+.partner h2 {
+    margin-bottom: 30px;
+}
+
+.partner p{
+    margin-bottom: 50px;
+}
 /* debug */
 
