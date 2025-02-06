@@ -195,10 +195,19 @@ nav {
     margin-bottom: 20px;
 }
 
+.plan.enterprise {
+    position: relative;
+}
+
+.plan.enterprise h2{
+    display:inline-block;
+}
+
+.plan.enterprise button{
+    display:inline-block;
+    position: absolute;
+    right: 10px;
+}
+
 /* debug */
 
-.row {
-    background-color: blue;
-    height: 200px;
-    width: 600px;
-}
