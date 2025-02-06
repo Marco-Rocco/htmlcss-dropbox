@@ -124,5 +124,20 @@ nav {
     border: 2px solid gray;
     border-radius: 50%;
 }
+
+.grid {
+    display: flex;
+    width: calc((100%-60px)/3);
+    gap: 20px;
+}
 /* debug */
 
+.grid {
+    background-color: violet;
+}
+
+.column{
+    height: 500px;
+    width: 30%;
+    background-color: aqua;
+}
