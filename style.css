@@ -90,11 +90,11 @@ nav {
 }
 
 .jumbotron .left{
-    width: 30%;
+    width: 40%;
 }
 
 .jumbotron .right {
-    width: 70%;
+    width: 60%;
 }
 
 .jumbotron .left *{
@@ -109,7 +109,7 @@ nav {
 
 .fa-solid.fa-arrow-down{
     font-size: 40px;
-    margin-top: 100px
+    margin-top: 80px
 }
 
 /* big contaier  */
@@ -160,6 +160,11 @@ nav {
 
 .row {
     flex-grow: 1;
+    margin-top: 15px;
+}
+
+.row p{
+    margin: 70px 0px 20px 0px;
 }
 
 .column, .row {
@@ -188,10 +193,18 @@ nav {
 
 .plan span {
     margin: 10px 0px;
+    font-size: 14px;
 }
 
 .plan i{
     margin-right: 10px;
+}
+
+.plan :nth-child(6){
+    box-sizing: content-box;
+    height: 70px;
+    margin-bottom: 70px;
+    border-bottom: 1px solid black;
 }
 
 .plan > * {
