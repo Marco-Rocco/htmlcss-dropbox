@@ -53,6 +53,7 @@ nav {
     color: black;
     box-sizing: content-box;
     height: 100px;
+    border-bottom: 1px solid transparent;
 }
 
 .voice:hover{
