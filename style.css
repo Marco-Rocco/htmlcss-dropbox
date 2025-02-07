@@ -219,6 +219,10 @@ nav {
     margin: 15px 0px;
 }
 
+.fa-solid.fa-check {
+    color: #0061fe;
+}
+
 .plan button{
     margin: auto;
     margin-bottom: 20px;
